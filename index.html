@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Untuk Kamu, Yang Paling Lucu ❤️</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background: linear-gradient(135deg, #fff5f7 0%, #fce4ec 50%, #f3e5f5 100%);
+            color: #4a3e3d;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            overflow-x: hidden;
+            position: relative;
+        }
+
+        /* Ambient glowing circles */
+        .glow {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(80px);
+            opacity: 0.5;
+            z-index: 0;
+        }
+
+        .glow-1 {
+            width: 300px;
+            height: 300px;
+            background: #ffb7b2;
+            top: 10%;
+            left: 10%;
+        }
+
+        .glow-2 {
+            width: 350px;
+            height: 350px;
+            background: #e2f0cb;
+            bottom: 10%;
+            right: 10%;
+        }
+
+        .container {
+            position: relative;
+            z-index: 1;
+            max-width: 680px;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.75);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border-radius: 24px;
+            border: 1px solid rgba(255, 255, 255, 0.8);
+            box-shadow: 0 20px 40px rgba(216, 112, 147, 0.12);
+            padding: 40px 30px;
+            text-align: center;
+        }
+
+        .header-tag {
+            font-family: 'Caveat', cursive;
+            font-size: 1.8rem;
+            color: #d81b60;
+            margin-bottom: 8px;
+            letter-spacing: 1px;
+        }
+
+        h1 {
+            font-size: 1.8rem;
+            font-weight: 600;
+            color: #2c1820;
+            margin-bottom: 24px;
+            line-height: 1.3;
+        }
+
+        .heart-icon {
+            display: inline-block;
+            font-size: 2rem;
+            color: #e91e63;
+            margin-bottom: 20px;
+            animation: pulse 1.8s infinite ease-in-out;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.15); }
+        }
+
+        .card-content {
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            line-height: 1.8;
+            font-size: 1.02rem;
+            color: #4a3e3d;
+        }
+
+        .paragraph {
+            background: rgba(255, 255, 255, 0.6);
+            padding: 20px 24px;
+            border-radius: 16px;
+            border-left: 4px solid #f48fb1;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.02);
+        }
+
+        .paragraph:hover {
+            transform: translateY(-2px);
+            background: rgba(255, 255, 255, 0.95);
+            box-shadow: 0 8px 20px rgba(216, 112, 147, 0.15);
+        }
+
+        .footer-note {
+            margin-top: 36px;
+            font-family: 'Caveat', cursive;
+            font-size: 1.6rem;
+            color: #880e4f;
+        }
+
+        /* Sparkle elements using pure CSS */
+        .sparkle {
+            position: absolute;
+            width: 6px;
+            height: 6px;
+            background: #f48fb1;
+            border-radius: 50%;
+            opacity: 0.6;
+            animation: float 4s infinite ease-in-out;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-15px); }
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 30px 20px;
+            }
+            h1 {
+                font-size: 1.5rem;
+            }
+            .paragraph {
+                font-size: 0.95rem;
+                padding: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="glow glow-1"></div>
+    <div class="glow glow-2"></div>
+
+    <div class="container">
+        <div class="header-tag">Spesial untukmu ✨</div>
+        <h1>Untuk Kamu yang Paling Lucu</h1>
+        <div class="heart-icon">♥</div>
+
+        <div class="card-content">
+            <div class="paragraph">
+                Aku nggak pernah benar-benar tahu bagaimana semesta bekerja, tapi sejak ada kamu, aku mulai percaya bahwa beberapa hal memang ditakdirkan untuk bertemu. Seperti hujan yang menemukan bumi, seperti senja yang selalu punya alasan untuk pulang pada malam. Dan mungkin, aku diciptakan dengan begitu banyak ketidaksempurnaan hanya agar aku bisa belajar mencintaimu tanpa harus menjadi seseorang yang sempurna.
+            </div>
+
+            <div class="paragraph">
+                Kalau suatu hari dunia terasa terlalu bising untukmu, pulanglah kepadaku. Aku mungkin bukan tempat paling megah untuk berteduh, tapi aku ingin menjadi tempat di mana kamu nggak perlu berpura-pura kuat, nggak perlu menyembunyikan sedih, dan nggak perlu takut menjadi dirimu sendiri.
+            </div>
+
+            <div class="paragraph">
+                Sebab bagiku, mencintaimu bukan sekadar tentang ingin memilikimu hari ini, melainkan tentang kesediaan untuk tetap mengenalmu esok hari, bahkan ketika waktu mengubah banyak hal dari dirimu. Aku ingin mencintai setiap versi yang kelak tumbuh dalam dirimu, termasuk bagian-bagian yang mungkin belum sempat kamu cintai sendiri.
+            </div>
+
+            <div class="paragraph">
+                Dan jika semesta pada akhirnya tak selalu berpihak pada keinginan kita, aku harap kamu tahu satu hal: pernah menjadi seseorang yang kucintai sedalam ini adalah bukti bahwa hatiku pernah menemukan sesuatu yang begitu berharga. Sebab di antara jutaan manusia yang sekadar lewat, kamu adalah seseorang yang membuatku ingin tinggal, belajar, dan mengusahakan.
+            </div>
+
+            <div class="paragraph">
+                Aku nggak menjanjikan bahwa aku akan selalu punya kata-kata yang indah untukmu. Tapi selama hatiku masih mengenal namamu, aku ingin selalu punya cara untuk membuatmu merasa bahwa kamu layak dicintai, bahkan pada hari-hari ketika kamu sendiri lupa bagaimana caranya.
+            </div>
+        </div>
+
+        <div class="footer-note">
+            ~ Terima kasih sudah hadir ya ~
+        </div>
+    </div>
+
+</body>
+</html>
